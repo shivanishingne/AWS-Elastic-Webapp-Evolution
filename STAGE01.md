@@ -96,7 +96,7 @@ sudo echo "CREATE DATABASE $<YOUR_PARAMETER_DBNAME>;" >> /tmp/db.setup
 
 sudo echo "CREATE USER '$<YOUR_PARAMETER_DBNAME>'@'localhost' IDENTIFIED BY '$<YOUR_PARAMETER_DBPASSWORD>';" >> /tmp/db.setup
 
-sudo echo "GRANT ALL ON $DBName.* TO '$DBUser'@'localhost';" >> /tmp/db.setup
+sudo echo "GRANT ALL ON $<YOUR_PARAMETER_DBNAME>.* TO '$<YOUR_PARAMETER_DBUSER>'@'localhost';" >> /tmp/db.setup
 
 sudo echo "FLUSH PRIVILEGES;" >> /tmp/db.setup
 
@@ -120,7 +120,13 @@ sudo rm /tmp/db.setup
 So far the limitations faced are:
 
 - No automation of database and application (manually built)
+
 - The database and application are on the same instance, neither can scale without the other
+
 - The database of the application is on an instance; scaling IN/OUT risks this media
+
 - The application media and UI store is local to an instance; scaling IN/OUT risks this media
+
 - Customer Connections are directly to an instance; no health-checks or auto-healing
+
+- IP address hardcoded in db
