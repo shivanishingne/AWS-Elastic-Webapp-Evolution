@@ -11,3 +11,6 @@ Project demonstrating the evolution of the architecture of a popular web applica
 ## STAGE 2: Creating a Launch Template to automate the build of the webapp
 - [X] [STAGE 02 Documentation](https://github.com/shivanishingne/AWS-Elastic-Webapp-Evolution/blob/master/STAGE02.md)
 
+## STAGE 3: Setting up and Building Wordpress manually
+- [X] [STAGE 03 Documentation](https://github.com/shivanishingne/AWS-Elastic-Webapp-Evolution/blob/master/STAGE03.md)
+
