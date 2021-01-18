@@ -1,4 +1,4 @@
-## STAGE 3: Creating an EFS file system
+## STAGE 4: Creating an EFS file system
 
 ---
 

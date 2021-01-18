@@ -5,7 +5,7 @@
 ## What was achieved:
 1.  Splitting out the database functionality from the existing EC2 instance.
 2.  Running MariaDB to an RDS instance running the MySQL Engine.
-3.  Allow the DB and the Instanc eto scale independently, and allow the data to be secure past the lifetime of the EC2 instance.
+3.  Allow the DB and the Instance to scale independently, and allow the data to be secure past the lifetime of the EC2 instance.
 
 ---
 
