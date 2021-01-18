@@ -17,4 +17,11 @@ Project demonstrating the evolution of the architecture of a popular web applica
 ## STAGE 4: Adding EFS and Updating the Launch Template
 - [X] [STAGE 04 Documentation](https://github.com/shivanishingne/AWS-Elastic-Webapp-Evolution/blob/master/STAGE04.md)
 
+## STAGE 5: Adding ELB and ASG
+- [X] [STAGE 05 Documentation](https://github.com/shivanishingne/AWS-Elastic-Webapp-Evolution/blob/master/STAGE05.md)
 
+## STAGE 6: Moving to a multi AZ Aurora cluster  *(optional)*
+
+
+## STAGE 7: Clean-up
+- [X] [STAGE 07 Documentation](https://github.com/shivanishingne/AWS-Elastic-Webapp-Evolution/blob/master/STAGE07.md)
